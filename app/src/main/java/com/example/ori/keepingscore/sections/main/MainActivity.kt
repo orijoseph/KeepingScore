@@ -1,12 +1,13 @@
-package com.example.ori.keepingscore
+package com.example.ori.keepingscore.sections.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ori.keepingscore.R
 
-class SplashActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_main)
     }
 }
